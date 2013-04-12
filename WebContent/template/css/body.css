@@ -1,0 +1,52 @@
+
+.body1{
+margin-left:200;
+	}
+	
+body2{
+	position:relative;
+}
+	
+#body_left{
+	width:250px;
+	float:left;
+
+}
+	
+/*body中标题的字体*/	
+.bodytitle{
+	color:#000000;
+	font:"新宋体";
+	font-size:17px;
+	}
+
+/*body中文本的字体*/
+.bodytext{
+	color:#000000;
+	font:"新宋体";
+	font-size:13px;
+	}
+	
+/*让body居中*/
+body{
+	width:800px;
+	margin:0 auto;
+	}
+	
+#article{
+	width:540px;
+	height:300px;
+	background-color:#C30;
+	border:2px;
+	border-color:#000;
+	float:left;
+	margin-left:10px;
+}
+
+#notice{
+	position:relative;
+	background-color:#0F0;
+	margin-top:0px;
+	
+}
+	

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+	
+<hibernate-mapping package="cn.blog.model.message">
+	<class name="Message">
+		<id name="msgId" length="10">
+			<generator class="native"/>
+		</id>
+		<property name="fromAccount" length="45"/>
+		<property name="toAccount" length="45"/>
+		<property name="content" length="45"/>
+		<property name="sign" length="10"/>
+
+	</class>
+	
+</hibernate-mapping>

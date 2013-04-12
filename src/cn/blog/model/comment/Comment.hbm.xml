@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+	
+<hibernate-mapping package="cn.blog.model.comment">
+	<class name="Comment">
+		<id name="commentId" length="10">
+			<generator class="native"/>
+		</id>
+		<many-to-one name="article" class="cn.blog.model.article.Article">
+			<column name="artId"/>
+		</many-to-one>
+		<property name="userId" length="10"/>
+		<property name="account" length="45"/>
+		<property name="content" length="45"/>
+		<property name="commentTime"/>
+	</class>
+	
+</hibernate-mapping>

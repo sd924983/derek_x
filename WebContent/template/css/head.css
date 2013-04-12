@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;margin:0}
+
+body{/*浏览器整个主体*/;
+	font-size:12px;
+}
+#head {/*页面头部*/
+	margin:0px auto 0px auto;
+	float:left;
+	width:1000px;
+	height:185px;
+}
+.logo {
+	font:24px Times New Roman, Times, serif;
+	color: #FFBA00;
+	letter-spacing:.3em;
+	line-height:26px;
+	}
+	
+.tagline {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #D3DCE6;
+	line-height:16px;
+	}
+
+.navText {
+	font:10px Arial, Helvetica, sans-serif;
+	color:#FFBA00;
+	letter-spacing:.1em;
+	line-height:16px;
+	width:100px;
+	}
+
+a {
+	color: #FFBA00;
+	font-weight:bold;
+	text-decoration:none;
+	}
+	
